@@ -1,0 +1,32 @@
+action_list:
+- action:
+    class_name: StoreValidationResultAction
+  name: store_validation_result
+- action:
+    class_name: StoreEvaluationParametersAction
+  name: store_evaluation_params
+- action:
+    class_name: UpdateDataDocsAction
+    site_names: []
+  name: update_data_docs
+batch_request: {}
+class_name: Checkpoint
+config_version: 1.0
+evaluation_parameters: {}
+expectation_suite_ge_cloud_id: null
+expectation_suite_name: null
+ge_cloud_id: null
+module_name: great_expectations.checkpoint
+name: new_products
+profilers: []
+run_name_template: '%Y%m%d-%H%M%S-new-products'
+runtime_configuration: {}
+template_name: null
+validations:
+- batch_request:
+    data_asset_name: 2022-04-12-products.csv
+    data_connector_name: default_inferred_data_connector_name
+    data_connector_query:
+      index: -1
+    datasource_name: datasource_products
+  expectation_suite_name: suite_products

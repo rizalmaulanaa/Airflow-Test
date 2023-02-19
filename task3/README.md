@@ -1,0 +1,1 @@
+The HTML files are the result of all the table. For the checkpoint, you can access on ../great_expectations/checkpoint. You can used the checkpoints for testing another test table. So the idea is to change the yaml file to target new data that same as current date (logical date).
